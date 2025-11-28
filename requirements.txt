@@ -1,0 +1,28 @@
+# Core Deep Learning Libraries
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# Machine Learning Utilities
+scikit-learn==1.5.0
+numpy==1.26.4
+pandas==2.2.2
+
+# Visualization Libraries
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# Streamlit Deployment
+streamlit==1.37.1
+
+# Progress Bars and Utilities
+tqdm==4.66.4
+
+# Image Handling
+Pillow==10.3.0
+
+# For YAML, JSON handling (optional, safe)
+PyYAML==6.0.1
+
+# Optional (for future YOLOv8 extension)
+ultralytics==8.2.12
