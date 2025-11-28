@@ -1,28 +1,22 @@
-# Core Deep Learning Libraries
-torch>=2.0.0
-torchvision>=0.15.0
-torchaudio>=2.0.0
+# Core Deep Learning Libraries (CPU builds)
+torch==2.5.0+cpu
+torchvision==0.20.0+cpu
+torchaudio==2.5.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
 
-# Machine Learning Utilities
-scikit-learn>=1.3.0
-numpy>=1.26.0
-pandas>=2.2.0
+# ML Utilities
+scikit-learn==1.5.0
+numpy==1.26.4
+pandas==2.2.2
 
-# Visualization Libraries
-matplotlib>=3.8.0
-seaborn>=0.13.0
+# Visualization
+matplotlib==3.9.0
+seaborn==0.13.2
 
 # Streamlit Deployment
-streamlit>=1.30.0
+streamlit==1.51.0
 
-# Progress Bars and Utilities
-tqdm>=4.66.0
-
-# Image Handling
-Pillow>=10.0.0
-
-# YAML, JSON handling
-PyYAML>=6.0.0
-
-# Optional: for future YOLOv8 integration
-ultralytics>=8.2.0
+# Utilities
+tqdm==4.66.4
+Pillow==10.3.0
+PyYAML==6.0.1
