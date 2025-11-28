@@ -1,22 +1,22 @@
-# PyTorch CPU builds only (safe for Streamlit Cloud)
+# Torch CPU builds only (safe for Streamlit Cloud)
 torch==2.5.0+cpu
 torchvision==0.20.0+cpu
 torchaudio==2.5.0+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# ML & CV Utilities
-scikit-learn==1.5.0
-numpy==1.26.4
-pandas==2.2.2
-tqdm==4.66.4
-Pillow==10.3.0
+# ML and CV utilities
+scikit-learn>=1.5.0
+numpy>=1.26.4
+pandas>=2.2.2
+tqdm>=4.66.4
+Pillow>=10.3.0
 
 # Visualization
-matplotlib==3.9.0
-seaborn==0.13.2
+matplotlib>=3.9.0
+seaborn>=0.13.2
 
 # Streamlit (latest stable)
-streamlit==1.51.0
+streamlit>=1.51.0
 
-# Optional YAML (safe)
-PyYAML==6.0.1
+# Optional YAML
+PyYAML>=6.0.1
